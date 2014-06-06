@@ -1,0 +1,110 @@
+
+
+ul.service-status {
+	overflow: hidden;
+	padding: 0;
+	margin: 1em 0 2em 0;
+	margin-top: 100px;
+
+}
+
+ul.service-status p {
+	font-size: 1.5em;
+}
+
+ul.service-status li {
+	display: inline-block;
+	width: 46%;
+	padding: 1em 2% 1em 2%;
+	font-size: 3em;
+}
+
+
+ul.service-status li:nth-child(1), ul.service-status li:nth-child(3),
+ul.service-status li:nth-child(5), ul.service-status li:nth-child(7)
+{
+	float: left;
+}
+
+ul.service-status li:nth-child(2), ul.service-status li:nth-child(4),
+ul.service-status li:nth-child(6), ul.service-status li:nth-child(8)
+{
+	float: right;
+}
+
+
+ul.service-status li .icon {
+	font-size: 1.6em;
+	margin-right: 0.3em;
+}
+
+ul.service-status .icon-ok-sign{
+	color: #76bc32;
+}
+
+ul.service-status  .icon-info-sign{
+	color: #1F4F82;
+} 
+
+
+ul.service-status .icon-exclamation-sign{
+	color: #f70008;
+}
+
+.glyphicon {
+	font-size: 1em;
+}
+
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+.amber {
+	color: orange;
+}
+
+.alert {
+	border-radius: 0px !important;
+	border: 0px !important;
+	margin-top: 20px;
+}
+
+.item .alert {
+	min-height: 200px;
+	margin-top: 50px;
+}
+
+.item .alert p {
+	font-size: 2em;
+}
+
+.service-web {
+	margin-top: 1.5em;
+	font-size: 2.5em;
+}
+
+.service-web p {
+	font-size: 0.5em;
+	margin-bottom: 1em;
+}
+
+.service-web h2 {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.container {
+	
+}
+
+.service-web .row {
+	min-height: 150px;
+}
+
+@media(max-width:480px){
+	.service-web .row p {
+		display: none;
+	}
+}

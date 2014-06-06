@@ -1,0 +1,99 @@
+.contacts-enquiries {
+  padding-bottom: 15px;
+}
+.pg-entry-requirements td p {
+  margin-bottom: 0px;
+}
+.programme-scroll-menu {
+  display: none;
+}
+.scroll-to-top {
+  display: none;
+}
+/* Course page tab responcive styles */
+@media (max-width: 990px) {
+  .daedalus-courses .daedalus-tabs .nav-tabs {
+    border-bottom: 0;
+  }
+  .daedalus-courses .daedalus-tabs .nav-tabs li {
+    width: 25%;
+    border: 0;
+  }
+  .daedalus-courses .daedalus-tabs .nav-tabs li a {
+    border: solid 1px #eee;
+    margin-bottom: 3px;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .daedalus-courses .daedalus-tabs .nav-tabs li.active a {
+    background-color: #eeeeee;
+  }
+}
+@media (max-width: 700px) {
+  .daedalus-courses .daedalus-tabs .nav-tabs li {
+    width: 33%;
+  }
+  .daedalus-courses .daedalus-tabs .daedalus-courses .search-bar .nav li a {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .daedalus-courses .daedalus-tabs .nav-tabs {
+    display: block;
+  }
+  .daedalus-courses .daedalus-tabs .nav-tabs li {
+    display: none;
+  }
+  .daedalus-courses .daedalus-tabs .programme-scroll-menu {
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  a.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #5c5c5c;
+    border: 0;
+    opacity: 0.8;
+  }
+}
+.info-section .contacts-enquiries p {
+  margin-bottom: 0;
+}
+@media (max-width: 990px) {
+  .daedalus-courses .search-bar .nav li:first-child a {
+    padding-left: 0px;
+  }
+}
+.daedalus-courses .alert-daedalus {
+  -border: 1px solid #ccc;
+  background: #fbf7eb;
+  box-shadow: 1px 1px 3px #888;
+  padding: 1em;
+  border-radius: 0;
+  color: #1d1d1d;
+  margin-bottom: 0px;
+}
+.daedalus-courses .enquire-block {
+  margin-bottom: 14px;
+  padding: 0 0em 0em 1.5em;
+}
+.daedalus-courses .enquire-block h3 {
+  margin: 12px 0;
+}
+.daedalus-courses .enquire-block ul {
+  margin-left: 20px;
+  margin-bottom: 1.8em;
+}
+.daedalus-courses .enquire-block strong {
+  width: 65px;
+  display: inline-block;
+}

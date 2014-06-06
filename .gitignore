@@ -1,0 +1,11 @@
+/public/config/paths.php
+/public/config/config.php
+/config/config.php
+/app/config.php
+vendor/
+bin/
+cache/
+composer.lock
+.DS_Store
+node_modules
+npm-debug.log

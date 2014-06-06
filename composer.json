@@ -1,0 +1,10 @@
+{
+    "require": {
+        "mikecao/flight": "dev-master"
+    },
+    
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "minimum-stability": "dev"
+}
